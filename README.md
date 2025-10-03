@@ -1,4 +1,4 @@
-# Sistema de Gestão de Loja – Documentação
+# TDE - Sistema de Gestão de Loja 
 
 ## 1. Apresentação do Sistema
 
@@ -233,11 +233,27 @@ GROUP BY p.id_pedido, c.nome;
     <img width="830" height="114" alt="image" src="https://github.com/user-attachments/assets/b198fbf1-bf70-49e6-a92f-23fe20f1eb54" />
 </p>
 
-## 7 Funcionamento do Sistema
+## 7. Funcionamento do Sistema
 O sistema acompanha todo o ciclo de uma compra:
 
-1. Cadastro de clientes e produtos – Armazena informações essenciais para vendas.
-2. Gerenciamento de pedidos – Cada pedido é associado a um cliente e pode conter vários itens.
-3. Controle de estoque – Cada produto possui quantidade disponível para venda.
-4. Gestão de pagamentos – Permite registrar pagamentos por pedido.
-5. Relatórios e análises – Consultas SQL e views permitem análises detalhadas e resumos do desempenho de vendas
+1. **Cadastro de clientes e produtos** – Armazena informações essenciais para vendas.
+2. **Gerenciamento de pedidos** – Cada pedido é associado a um cliente e pode conter vários itens.
+3. **Controle de estoque** – Cada produto possui quantidade disponível para venda.
+4. **Gestão de pagamentos** – Permite registrar pagamentos por pedido.
+5. **Relatórios e análises** – Consultas SQL e views permitem análises detalhadas e resumos do desempenho de vendas
+   
+----
+
+## 🛠️ Desenvolvido por:
+
+| Equipe 04                                     |
+|----------------------------------------------|
+| Maria Victória Freyre Reis                    |
+| Arlington Costa Tavares Junior                |
+| Marcus Vinícius Costa Pachêco                  |
+| Kayllanne Gabrielle França Oliveira            |
+| Dannyelen Christinna Dourado Garcez            |
+| Jefferson Freitas Dos Santos                   |
+
+*Este repositória visa contemplar o projeto de Trabalho Discente Efetivo (TDE) da disciplina de Banco de dados Avançado e Big Data.*
+
