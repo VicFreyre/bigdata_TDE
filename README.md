@@ -39,15 +39,15 @@ CREATE SCHEMA loja;
 ```
 ## Tabelas Principais
 
-Clientes – Armazena dados de cada cliente.
+**Clientes** – Armazena dados de cada cliente.
 
-Produtos – Armazena os produtos disponíveis na loja.
+**Produtos** – Armazena os produtos disponíveis na loja.
 
-Pedidos – Cada pedido realizado por um cliente.
+**Pedidos** – Cada pedido realizado por um cliente.
 
-Itens_Pedido – Produtos e quantidades dentro de cada pedido.
+**Itens_Pedido** – Produtos e quantidades dentro de cada pedido.
 
-Pagamentos – Controle dos pagamentos realizados.
+**Pagamentos** – Controle dos pagamentos realizados.
 
 Exemplo de criação da tabela Clientes:
 ```sql
