@@ -247,11 +247,10 @@ O sistema acompanha todo o ciclo de uma compra:
 
 | Equipe 04                                     |
 |----------------------------------------------|
+| Dannyelen Christinna Dourado Garcez            |
 | Maria Victória Freyre Reis                    |
 | Arlington Costa Tavares Junior                |
 | Marcus Vinícius Costa Pachêco                  |
-| Kayllanne Gabrielle França Oliveira            |
-| Dannyelen Christinna Dourado Garcez            |
 | Jefferson Freitas Dos Santos                   |
 
 *Este repositória visa contemplar o projeto de Trabalho Discente Efetivo (TDE) da disciplina de Banco de dados Avançado e Big Data.*
