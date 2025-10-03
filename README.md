@@ -245,7 +245,7 @@ O sistema acompanha todo o ciclo de uma compra:
 
 ## 🛠️ Desenvolvido por:
 
-| Equipe Dicemte                                     |
+| Equipe Discente                                     |
 |----------------------------------------------|
 | Dannyelen Christinna Dourado Garcez            |
 | Maria Victória Freyre Reis                    |
