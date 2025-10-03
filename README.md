@@ -191,6 +191,10 @@ SELECT c.nome, p.id_pedido, p.status, p.data_pedido
 FROM loja.Clientes c
 JOIN loja.Pedidos p ON c.id_cliente = p.id_cliente;
 ```
+<p align="center">
+    <img width="799" height="174" alt="image" src="https://github.com/user-attachments/assets/acac799c-1b17-4bd7-8065-f9147f55afb9" />
+</p>
+
 Itens de Pedido Detalhados:
 ```sql
 CREATE VIEW vw_itens_pedido AS
@@ -199,6 +203,10 @@ FROM loja.Itens_Pedido ip
 JOIN loja.Produtos pr ON ip.id_produto = pr.id_produto
 JOIN loja.Pedidos p ON ip.id_pedido = p.id_pedido;
 ```
+<p align="center">
+    <img width="890" height="158" alt="image" src="https://github.com/user-attachments/assets/e18e373b-fc9d-4270-a8c8-011955cc8ebf" />
+</p>
+
 Pagamentos por Pedido:
 ```sql
 CREATE VIEW vw_pagamentos_pedido AS
@@ -206,6 +214,9 @@ SELECT p.id_pedido, pa.valor, pa.metodo_pagamento, pa.data_pagamento
 FROM loja.Pagamentos pa
 JOIN loja.Pedidos p ON pa.id_pedido = p.id_pedido;
 ```
+<p align="center">
+   <img width="961" height="84" alt="image" src="https://github.com/user-attachments/assets/46c5a8d2-346c-4e5d-af4b-30446d1805a9" />
+</p>
 
 Resumo de Pedidos com Total:
 ```sql
@@ -217,6 +228,10 @@ JOIN loja.Clientes c ON p.id_cliente = c.id_cliente
 JOIN loja.Itens_Pedido ip ON p.id_pedido = ip.id_pedido
 GROUP BY p.id_pedido, c.nome;
 ```
+
+<p align="center">
+    <img width="830" height="114" alt="image" src="https://github.com/user-attachments/assets/b198fbf1-bf70-49e6-a92f-23fe20f1eb54" />
+</p>
 
 ## 7 Funcionamento do Sistema
 O sistema acompanha todo o ciclo de uma compra:
