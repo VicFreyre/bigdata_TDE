@@ -1,5 +1,4 @@
-# TDE - Sistema de Gestão de Loja 
-
+# 🗃️ TDE - Sistema de Gestão de Loja
 ## 1. Apresentação do Sistema
 
 O sistema foi desenvolvido para **gerenciar uma loja virtual** de forma organizada. Ele permite controlar os **clientes**, os **produtos disponíveis**, os **pedidos realizados**, os **itens dentro de cada pedido** e os **pagamentos efetuados**.  
